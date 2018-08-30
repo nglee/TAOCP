@@ -29,6 +29,7 @@
 사전식 순서로 배열한다면 \\((i, j, k)\\) 가 다음과 같은 순서로 증가하게 됩니다.
 
 \\[
+\\begin{align}
 (i, j, k)\\newline
 (0, 0, 0)\\newline
 (1, 0, 0)\\newline
@@ -44,6 +45,7 @@
 (n, 0, 0)\\newline
 \\cdots\\newline
 (n, n, n)
+\\end{align}
 \\]
 
 #### \\(f_1(i)\\) 구하기
@@ -122,6 +124,7 @@ LOC(A[i, j, k]) = a_0 + \\binom{i+2}{3} + \\binom{j+1}{2} + \\binom{k}{1}
 사전식 순서로 배열한다면 \\((i, j, k)\\) 가 다음과 같은 순서로 증가하게 됩니다.
 
 \\[
+\\begin{align}
 (i, j, k)\\newline
 (0, 0, 0)\\newline
 (0, 0, 1)\\newline
@@ -148,6 +151,7 @@ LOC(A[i, j, k]) = a_0 + \\binom{i+2}{3} + \\binom{j+1}{2} + \\binom{k}{1}
 (2, 2, 2)\\newline
 \\cdots\\newline
 (n, n, n)
+\\end{align}
 \\]
 
 #### \\(g_1(i)\\) 구하기
